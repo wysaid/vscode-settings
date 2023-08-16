@@ -1,0 +1,181 @@
+{
+    "cmake.configureOnOpen": false,
+    "cmake.configureOnEdit": false,
+    "cmake.showSystemKits": false,
+    "tabnine.disableFileRegex": [
+        "[.]lua$",
+        "[.]md$"
+    ],
+    "explorer.confirmDelete": false,
+    "editor.mouseWheelScrollSensitivity": 0.6,
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.default.defines": [
+        "DEBUG=1"
+    ],
+    "[lua]": {
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        }
+    },
+    "window.closeWhenEmpty": true,
+    "files.autoSave": "onFocusChange",
+    "settingsSync.ignoredSettings": [],
+    "shellformat.flag": "-i 4",
+    "[shellscript]": {
+        "editor.formatOnSave": true,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        },
+        "editor.wordBasedSuggestions": true
+    },
+    "search.exclude": {
+        "**/.git/**": true,
+        "**/build/**": true,
+        "**/cmake-build-*/**": true,
+        "**/jni/include/**": true,
+        "**/Pods/**": true,
+        "**/.cxx/**": true,
+        "**/*.o": true,
+        "**/*.framework/**": true,
+        "**/*.ex": true,
+        "**/*.d": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+    },
+    "files.associations": {
+        "*.h": "cpp",
+        "*.cc": "cpp",
+        "*.mat": "json",
+        "*.metamat": "json",
+        "CMakeLists*.txt": "cmake"
+    },
+    "[objective-cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "workbench.startupEditor": "none",
+    "files.watcherExclude": {
+        "**/.externalNativeBuild/**": true,
+        "**/.git/**": true,
+        "**/.gundam/**": true,
+        "**/*.framework/**": true,
+        "**/build/**": true,
+        "**/cmake-build-*/**": true,
+        "**/Pods/**": true,
+        "**/node_modules/*/**": true,
+        "**/.gradle/**": true,
+        "**/.android/**": true,
+        "**/.idea/**": true,
+        "**/.vscode/**": true,
+        "**/.cache/**": true
+    },
+    "editor.suggestSelection": "first",
+    "search.useIgnoreFiles": false,
+    "search.followSymlinks": false,
+    "tabnine.experimentalAutoImports": false,
+    "[glsl]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.newWindowDimensions": "inherit",
+    "emmylua.completion.caseSensitive": true,
+    "git.autofetch": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.tree.indent": 18,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "git.ignoreLegacyWarning": true,
+    "command-runner.terminal.name": "runMyCommand",
+    "command-runner.terminal.autoClear": true,
+    "command-runner.terminal.autoFocus": false,
+    "command-runner.showRunCommandInEditorContextMenu": false,
+    "command-runner.showRunCommandInExplorerContextMenu": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.wordWrap": "on",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "typescript.tsc.autoDetect": "off",
+    "python.formatting.blackArgs": [
+        "--skip-string-normalization"
+    ],
+    "starlight-generator.explorerContextMenu": false,
+    "starlight-generator.showEditorContextMenu": false,
+    "window.title": "${activeEditorShort}${separator}${rootPath}",
+    "files.encoding": "utf8",
+    "files.autoGuessEncoding": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "redhat.telemetry.enabled": true,
+    "git.mergeEditor": false,
+    "window.commandCenter": false,
+    "git.ignoreMissingGitWarning": true,
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "gradle.autoDetect": "off",
+    "editor.unicodeHighlight.allowedLocales": {
+        "zh-hant": true
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "java.autobuild.enabled": false,
+    "java.jdt.ls.androidSupport.enabled": "off",
+    "java.project.importOnFirstTimeStartup": "disabled",
+    "java.project.importHint": false,
+    "java.import.gradle.annotationProcessing.enabled": false,
+    "java.jdt.ls.lombokSupport.enabled": false,
+    "javascript.suggest.autoImports": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "java.import.gradle.enabled": false,
+    "cmake.buildTask": true,
+    "cmake.ignoreCMakeListsMissing": true,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false,
+        "yaml": false
+    },
+    "gitlens.mode.active": "zen",
+    "editor.accessibilitySupport": "off",
+    "[cmake]": {
+        "editor.defaultFormatter": "josetr.cmake-language-support-vscode"
+    },
+    "git.openRepositoryInParentFolders": "never",
+
+    "explorer.autoReveal": false,
+    "terminal.integrated.scrollback": 20000,
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "remote.SSH.remotePlatform": {
+        "HOME_WSL_9900K_ROOT": "linux",
+        "NUC_ROOT": "linux",
+        "ALIYUN_ROOT": "linux"
+    },
+    // "http.proxy": "http://127.0.0.1:1087"
+}
